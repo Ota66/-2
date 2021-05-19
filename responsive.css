@@ -1,0 +1,108 @@
+@media screen and (max-width:896px){
+  header ul {
+    display: none;
+  }
+  .header-bottom {
+    padding: 220px 0 30px;
+  }
+  .contents {
+    flex-wrap: wrap;
+  }
+  .who-we-are {
+    margin: 30px 0;
+    width: 90%;
+    padding: 70px;
+  }
+  .career {
+    margin-top: 30px;
+    width: 90%;
+    padding: 70px 130px;
+  }
+  .img1 {
+    left: 0;
+  }
+  .img2 {
+    top: 700px;
+    right: 0px;
+  }
+  .consulting-firm {
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  .sales {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width:480px){
+  .logo-img img{
+    width: 150px;
+    margin: 10px 0 10px 20px;
+  }
+  .header-bottom {
+    padding: 110px 0 10px 0;
+  }
+  .header-catch-copy {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  .concept {
+    padding: 5px 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  main {
+    padding-bottom: 40px;
+  }
+  .img1 {
+    width: 100px;
+    bottom: 70px;
+    left: 0px;
+  }
+  .img2 {
+    width: 100px;
+    top: 820px;
+    right: 0px;
+  }
+  .who-we-are {
+    padding: 40px;
+  }
+  .career {
+    padding: 40px;
+  }
+  .contents {
+    padding-bottom: 40px;
+  }
+  .consulting-firm {
+    width: 90%;
+    margin: 0 auto 40px auto;
+  }
+  .sales {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contents2 {
+    flex-wrap: wrap;
+  }
+  .contact {
+    width: 90%;
+  }
+  .contact p {
+    font-size: 10px;
+  }
+  .contact a {
+    width: 70%;
+    padding: 10px 0;
+    margin-bottom: 30px;
+  }
+  footer {
+    flex-wrap: wrap;
+  }
+  footer li {
+    margin: 15px 20px 0 0;
+  }
+  footer p {
+    margin: 15px 20px 15px 0;
+  }
+}

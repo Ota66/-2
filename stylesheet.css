@@ -1,0 +1,200 @@
+/* リセットCSS */
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+
+/* ヘッター */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.logo-img img{
+  width: 240px;
+  margin: 15px 0 15px 40px;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  margin: 30px 40px 30px 0;
+}
+.header-bottom {
+  background-image: url("img/header.png");
+  padding: 400px 0 200px;
+  background-size: cover;
+  text-align: center;
+}
+.header-catch-copy {
+  color: red;
+  font-size: 23px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+.concept {
+  text-decoration: none;
+  border: 1px solid red;
+  color: red;
+  padding: 15px 40px;
+  font-size: 14px;
+}
+.concept:hover {
+  background-color: red;
+  color: white;
+  opacity: 0.7;
+  transition: 1.0s;
+}
+
+/* メイン */
+main {
+  background-color: lightgray;
+  padding-bottom: 100px;
+}
+.contents {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 80px;
+  position: relative;
+}
+.img1 {
+  position: absolute;
+  bottom: 100px;
+  left: 690px;
+}
+.img2 {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+}
+.who-we-are {
+  margin-bottom: 80px;
+  width: 45%;
+  background-color: white;
+  padding: 80px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.title {
+  color: red;
+  font-size: 24px;
+}
+.sub-title {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.content {
+  margin-bottom: 50px;
+}
+.view {
+  text-decoration: none;
+  border: 1px solid red;
+  color: red;
+  padding: 15px 70px;
+}
+.career {
+  margin-top: 70px;
+  width: 35%;
+  background-color: red;
+  padding: 70px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.title2 {
+  color: white;
+  font-size: 24px;
+}
+.sub-title2 {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.career img {
+  margin-bottom: 40px;
+}
+.content2 {
+  color: white;
+  margin-bottom: 50px;
+}
+.view2 {
+  text-decoration: none;
+  border: 1px solid white;
+  color: white;
+  padding: 15px 70px;
+}
+.consulting-firm {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto 80px auto;
+  padding: 80px;
+}
+.title3 {
+  color: red;
+  font-size: 24px;
+  text-align: center;
+ } 
+ .sub-title3 {
+  font-size: 16px;
+  margin-bottom: 40px;
+  text-align: center;
+ }
+.contents2 {
+  display: flex;
+  justify-content: space-around;
+}
+.sales img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.sales {
+  width: 27%;
+}
+.content3 {
+  margin: 20px 0;
+}
+.view3 {
+  text-decoration: none;
+  border-bottom: 2px solid red;
+  color: red;
+  padding: 10px 0 5px 0;
+}
+.contact {
+  width: 80%;
+  margin: 0 auto;
+  background-color: red;
+  text-align: center;
+} 
+.contact p {
+  color: white;
+  padding: 20px 0;
+}
+.contact a {
+  background-color: white;
+  color: red;
+  display: inline-block;
+  width: 50%;
+  padding: 20px 0;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+/* フッター */
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+footer li {
+  margin: 30px 40px 30px 0;
+}
+footer p {
+  color: #d3d3d3;
+  margin-right: 60px;
+}
